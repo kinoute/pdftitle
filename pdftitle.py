@@ -22,7 +22,7 @@ from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 
 VERBOSE = False
-MISSING_CHAR = None
+MISSING_CHAR = ' '
 WITHIN_WORD_MOVE_LIMIT = 0
 ALGO = "original"
 ELIOT_TFS = [0]
